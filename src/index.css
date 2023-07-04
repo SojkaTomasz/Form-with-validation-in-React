@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: linear-gradient(315deg, #4141ad 0%, #3fb2f5 74%);
+}

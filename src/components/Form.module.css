@@ -1,0 +1,79 @@
+.section {
+	padding: 30px;
+	margin: 0 5px;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.106);
+}
+
+h1, h2 {
+	margin: 10px 0;
+	text-align: center;
+	font-family: "Fjalla One", sans-serif;
+}
+
+h2{
+	margin: 20px 0 0 0;
+	font-size: 20px;
+	color:rgb(67, 176, 114);
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+input {
+	padding: 5px;
+	width: 100%;
+	font-size: 16px;
+	border: 1px solid #222;
+	border-radius: 5px;
+}
+
+label {
+	margin-top: 8px;
+	cursor: pointer;
+}
+
+.checkbox {
+	display: grid;
+	align-items: center;
+	gap: 0 5px;
+	grid-template-columns: repeat(10, 1fr);
+	margin-top: 10px;
+}
+
+.checkbox > label {
+	grid-column: 2/ -1;
+	margin-top: 0;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 16px;
+	font-family: "Fjalla One", sans-serif;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	background-image: linear-gradient(315deg, #4141ad 0%, #3fb2f5 74%);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+p {
+	margin: 0;
+	font-size: 14px;
+	color: tomato;
+}
+
+@media (min-width: 420px) {
+	.section {
+		width: 300px;
+		padding: 30px 50px;
+	}
+}
